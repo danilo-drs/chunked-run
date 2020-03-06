@@ -1,0 +1,30 @@
+{
+  "name": "chunked-run",
+  "version": "1.0.0",
+  "description": "Nodejs madule to run parallel process wisely",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilo-drs/chunked-run.git"
+  },
+  "keywords": [
+    "chunked-run"
+  ],
+  "contributors": [
+    "Murilo Portesceller <mport.dev@gmail.com>",
+    "Danilo Ribeiro <danilo.drs@gmail.com>"
+  ],
+  "author": "danilo-drs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danilo-drs/chunked-run/issues"
+  },
+  "homepage": "https://github.com/danilo-drs/chunked-run#readme"
+}
