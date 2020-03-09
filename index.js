@@ -1,4 +1,4 @@
-import queue from 'async/queue';
+const queue = request('async/queue');
 
 const chunkedRun = (dataArray, processFunction, chunkSize) => new Promise((resolve) => {
   if (dataArray.length === 0) resolve([]);
@@ -24,4 +24,4 @@ const chunkedRun = (dataArray, processFunction, chunkSize) => new Promise((resol
   queueEngine.push(dataArray.map((item, index) => ({ index, item })));
 });
 
-export default chunkedRun;
+module.exports = chunkedRun;
