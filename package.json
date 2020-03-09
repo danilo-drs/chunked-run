@@ -1,6 +1,6 @@
 {
   "name": "chunked-run",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nodejs madule to run parallel process wisely",
   "main": "index.js",
   "dependencies": {
