@@ -1,4 +1,4 @@
-const queue = request('async/queue');
+const queue = require('async/queue');
 
 const chunkedRun = (dataArray, processFunction, chunkSize) => new Promise((resolve) => {
   if (dataArray.length === 0) resolve([]);
